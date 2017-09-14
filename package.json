@@ -1,0 +1,23 @@
+{
+  "name": "kanaiya",
+  "version": "1.0.0",
+  "description": "kanaiya montessori play school website",
+  "main": "lib/server.js",
+  "scripts": {
+    "start": "node ./lib/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Priyankavprk/kanaiya.git"
+  },
+  "author": "Priyanka Prakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Priyankavprk/kanaiya/issues"
+  },
+  "homepage": "https://github.com/Priyankavprk/kanaiya#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
