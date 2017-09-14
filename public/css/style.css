@@ -539,7 +539,7 @@ footer {
   font-size: 14px;
   color: #8a8d94;
   margin: 0;
-  
+
   font-weight: 300;
   margin-bottom: 15px;
 }
@@ -614,4 +614,12 @@ a.scrollup:hover{
 	opacity:1;
 	background-color:#36CBD4;
 	color:#fff;;
+}
+@media only screen and (max-width: 760px) {
+	.video {
+		width: 50%;
+		height: auto;
+		margin-right: 5%;
+	}
+
 }
