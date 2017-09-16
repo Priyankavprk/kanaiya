@@ -121,6 +121,10 @@ a.navbar-brand span {
 
 }
 
+.bxslider .one {
+	margin-left:1.75%;
+}
+
 .content {
 	margin-top:20px;
 }
@@ -133,6 +137,11 @@ a.navbar-brand span {
 	color:#8a8d94;
 	font-size:15px;
 
+}
+
+.moto {
+	font-size:100%;
+	font-weight:900;
 }
 
 .box {
@@ -627,6 +636,4 @@ a.scrollup:hover{
 		font-size:15px;
 		font-weight: 600;
 	}
-
-
 }
