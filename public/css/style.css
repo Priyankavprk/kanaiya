@@ -125,6 +125,24 @@ a.navbar-brand span {
 	margin-left:1.75%;
 }
 
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.im {
+  position: absolute;
+  top: 10%;
+  left: 77%;
+
+}
+
+.img {
+	width:304px;
+	height:228px;
+}
+
 .content {
 	margin-top:20px;
 }
@@ -635,5 +653,17 @@ a.scrollup:hover{
 		color:#fff;
 		font-size:15px;
 		font-weight: 600;
+	}
+
+	.im {
+	  position: absolute;
+	  top: 15%;
+	  left: 2%;
+
+	}
+
+	.img {
+		width:150px;
+		height:110px;
 	}
 }
