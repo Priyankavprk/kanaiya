@@ -49,7 +49,7 @@ hr {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding: 15px 15px;
+  padding: 2% 15px;
   font-size: 30px;
   line-height: 20px;
 }
@@ -621,5 +621,12 @@ a.scrollup:hover{
 		height: auto;
 		margin-right: 5%;
 	}
+
+	a.navbar-brand span {
+		color:#fff;
+		font-size:15px;
+		font-weight: 600;
+	}
+
 
 }
