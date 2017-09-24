@@ -47,11 +47,14 @@ hr {
 	margin-bottom:40px;
 }
 .navbar-brand {
-  float: left;
-  height: 50px;
-  padding: 2% 15px;
-  font-size: 30px;
-  line-height: 20px;
+  float:left;
+  height:50px;
+  padding:0;
+  font-size:30px;
+  line-height:20px;
+	position:absolute;
+	top:40%;
+  left:15%;
 }
 a.navbar-brand span {
 	color:#fff;
@@ -65,12 +68,12 @@ a.navbar-brand span {
 	overflow-x: visible;
 	-webkit-overflow-scrolling: touch;
 	border-top: 0;
-
 }
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 0;
   background-color:#0db4be;
+
 }
 .nav-tabs {
   border-bottom:0;
@@ -112,7 +115,7 @@ a.navbar-brand span {
 }
 
 .slider {
-	margin-top:110px;
+	margin-top:10%;
 	background-color:#;
 
 }
@@ -126,6 +129,7 @@ a.navbar-brand span {
 }
 
 .parent {
+	margin-top: 10%;
   position: relative;
   top: 0;
   left: 0;
@@ -133,8 +137,8 @@ a.navbar-brand span {
 
 .im {
   position: absolute;
-  top: 10%;
-  left: 77%;
+  top:3%;
+  left:77%;
 
 }
 
@@ -172,8 +176,9 @@ a.navbar-brand span {
 }
 
 .logo {
-	width:50px;
-	height:50px;
+	width:150px;
+	height:150px;
+	padding-top:20%;
 }
 
 .icon {
@@ -259,11 +264,11 @@ a.navbar-brand span {
 }
 /* --- Services --- */
 .service {
-	margin-top:80px;
+	margin-top:15%;
 }
 
 .services {
-	text-align:center;
+	text-align:left;
 	margin-bottom:30px;
 	margin-top:-50px;
 	padding:50px;
@@ -656,27 +661,46 @@ a.scrollup:hover{
 	color:#fff;;
 }
 @media only screen and (max-width: 760px) {
-	.video {
-		width: 50%;
-		height: auto;
-		margin-right: 5%;
-	}
 
-	a.navbar-brand span {
-		color:#fff;
-		font-size:15px;
-		font-weight: 600;
-	}
+
 
 	.im {
 	  position: absolute;
-	  top: 15%;
-	  left: 2%;
+	  top: 30%;
+	  left: 0;
 
 	}
 
 	.img {
 		width:150px;
 		height:110px;
+	}
+
+	.slider {
+		margin-top:45%;
+		background-color:#;
+	}
+
+	.logo {
+		width:150px;
+		height:150px;
+		padding-top:5%;
+	}
+
+	.navbar-brand {
+		text-align: center;
+	  float:left;
+	  height:50px;
+	  padding:0;
+    font-weight: 200;
+	  line-height:20px;
+		position:absolute;
+		top:20%;
+	  left:26%;
+		font-size:10%;
+	}
+
+	.service {
+		margin-top:55%;
 	}
 }
